@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033982D41A05C2D800B1EC6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033982D31A05C2D800B1EC6C /* main.m */; };
+		033982D71A05C2D800B1EC6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 033982D61A05C2D800B1EC6C /* AppDelegate.m */; };
+		033982DA1A05C2D800B1EC6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 033982D91A05C2D800B1EC6C /* ViewController.m */; };
+		033982DD1A05C2D800B1EC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033982DB1A05C2D800B1EC6C /* Main.storyboard */; };
+		033982DF1A05C2D800B1EC6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033982DE1A05C2D800B1EC6C /* Images.xcassets */; };
+		033982E21A05C2D800B1EC6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033982E01A05C2D800B1EC6C /* LaunchScreen.xib */; };
+		033982EE1A05C2D800B1EC6C /* BanditTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 033982ED1A05C2D800B1EC6C /* BanditTVTests.m */; };
+		03ABF97C1A100F8400257A0C /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABF97B1A100F8400257A0C /* ALAssetsLibrary+CustomPhotoAlbum.m */; };
+		BD2B6F762D58A8D0DDDD0C8F /* libPods-BanditTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 63F34ACCA9E019509E2B8B74 /* libPods-BanditTV.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		033982E81A05C2D800B1EC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 033982C61A05C2D800B1EC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033982CD1A05C2D800B1EC6C;
+			remoteInfo = BanditTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033982CE1A05C2D800B1EC6C /* BanditTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BanditTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033982D21A05C2D800B1EC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033982D31A05C2D800B1EC6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033982D51A05C2D800B1EC6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		033982D61A05C2D800B1EC6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		033982D81A05C2D800B1EC6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		033982D91A05C2D800B1EC6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		033982DC1A05C2D800B1EC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		033982DE1A05C2D800B1EC6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		033982E11A05C2D800B1EC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		033982E71A05C2D800B1EC6C /* BanditTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BanditTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		033982EC1A05C2D800B1EC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033982ED1A05C2D800B1EC6C /* BanditTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BanditTVTests.m; sourceTree = "<group>"; };
+		03ABF97A1A100F8400257A0C /* ALAssetsLibrary+CustomPhotoAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALAssetsLibrary+CustomPhotoAlbum.h"; sourceTree = "<group>"; };
+		03ABF97B1A100F8400257A0C /* ALAssetsLibrary+CustomPhotoAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALAssetsLibrary+CustomPhotoAlbum.m"; sourceTree = "<group>"; };
+		63F34ACCA9E019509E2B8B74 /* libPods-BanditTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BanditTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934CF300B9D6EDBBD98221A9 /* Pods-BanditTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanditTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BanditTV/Pods-BanditTV.debug.xcconfig"; sourceTree = "<group>"; };
+		D5C57B3472D9B8501401B7A7 /* Pods-BanditTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BanditTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-BanditTV/Pods-BanditTV.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033982CB1A05C2D800B1EC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2B6F762D58A8D0DDDD0C8F /* libPods-BanditTV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033982E41A05C2D800B1EC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033982C51A05C2D800B1EC6C = {
+			isa = PBXGroup;
+			children = (
+				033982D01A05C2D800B1EC6C /* BanditTV */,
+				033982EA1A05C2D800B1EC6C /* BanditTVTests */,
+				033982CF1A05C2D800B1EC6C /* Products */,
+				238EAB7226FB24CAEF7670B9 /* Pods */,
+				D3C18DBA5D9361C5B15AE9B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		033982CF1A05C2D800B1EC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033982CE1A05C2D800B1EC6C /* BanditTV.app */,
+				033982E71A05C2D800B1EC6C /* BanditTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033982D01A05C2D800B1EC6C /* BanditTV */ = {
+			isa = PBXGroup;
+			children = (
+				03ABF9781A100F8400257A0C /* Libs */,
+				033982D51A05C2D800B1EC6C /* AppDelegate.h */,
+				033982D61A05C2D800B1EC6C /* AppDelegate.m */,
+				033982D81A05C2D800B1EC6C /* ViewController.h */,
+				033982D91A05C2D800B1EC6C /* ViewController.m */,
+				033982DB1A05C2D800B1EC6C /* Main.storyboard */,
+				033982DE1A05C2D800B1EC6C /* Images.xcassets */,
+				033982E01A05C2D800B1EC6C /* LaunchScreen.xib */,
+				033982D11A05C2D800B1EC6C /* Supporting Files */,
+			);
+			path = BanditTV;
+			sourceTree = "<group>";
+		};
+		033982D11A05C2D800B1EC6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033982D21A05C2D800B1EC6C /* Info.plist */,
+				033982D31A05C2D800B1EC6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		033982EA1A05C2D800B1EC6C /* BanditTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				033982ED1A05C2D800B1EC6C /* BanditTVTests.m */,
+				033982EB1A05C2D800B1EC6C /* Supporting Files */,
+			);
+			path = BanditTVTests;
+			sourceTree = "<group>";
+		};
+		033982EB1A05C2D800B1EC6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033982EC1A05C2D800B1EC6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03ABF9781A100F8400257A0C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				03ABF9791A100F8400257A0C /* CustomPhotoAlbum */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		03ABF9791A100F8400257A0C /* CustomPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				03ABF97A1A100F8400257A0C /* ALAssetsLibrary+CustomPhotoAlbum.h */,
+				03ABF97B1A100F8400257A0C /* ALAssetsLibrary+CustomPhotoAlbum.m */,
+			);
+			path = CustomPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		238EAB7226FB24CAEF7670B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				934CF300B9D6EDBBD98221A9 /* Pods-BanditTV.debug.xcconfig */,
+				D5C57B3472D9B8501401B7A7 /* Pods-BanditTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3C18DBA5D9361C5B15AE9B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63F34ACCA9E019509E2B8B74 /* libPods-BanditTV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		033982CD1A05C2D800B1EC6C /* BanditTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033982F11A05C2D800B1EC6C /* Build configuration list for PBXNativeTarget "BanditTV" */;
+			buildPhases = (
+				B829F4081EFD19F2EA5D44A5 /* Check Pods Manifest.lock */,
+				033982CA1A05C2D800B1EC6C /* Sources */,
+				033982CB1A05C2D800B1EC6C /* Frameworks */,
+				033982CC1A05C2D800B1EC6C /* Resources */,
+				9B5431025CD829A3C5DC4A7E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BanditTV;
+			productName = BanditTV;
+			productReference = 033982CE1A05C2D800B1EC6C /* BanditTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		033982E61A05C2D800B1EC6C /* BanditTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033982F41A05C2D800B1EC6C /* Build configuration list for PBXNativeTarget "BanditTVTests" */;
+			buildPhases = (
+				033982E31A05C2D800B1EC6C /* Sources */,
+				033982E41A05C2D800B1EC6C /* Frameworks */,
+				033982E51A05C2D800B1EC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033982E91A05C2D800B1EC6C /* PBXTargetDependency */,
+			);
+			name = BanditTVTests;
+			productName = BanditTVTests;
+			productReference = 033982E71A05C2D800B1EC6C /* BanditTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		033982C61A05C2D800B1EC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = RokkinCat;
+				TargetAttributes = {
+					033982CD1A05C2D800B1EC6C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					033982E61A05C2D800B1EC6C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 033982CD1A05C2D800B1EC6C;
+					};
+				};
+			};
+			buildConfigurationList = 033982C91A05C2D800B1EC6C /* Build configuration list for PBXProject "BanditTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 033982C51A05C2D800B1EC6C;
+			productRefGroup = 033982CF1A05C2D800B1EC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033982CD1A05C2D800B1EC6C /* BanditTV */,
+				033982E61A05C2D800B1EC6C /* BanditTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033982CC1A05C2D800B1EC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033982DD1A05C2D800B1EC6C /* Main.storyboard in Resources */,
+				033982E21A05C2D800B1EC6C /* LaunchScreen.xib in Resources */,
+				033982DF1A05C2D800B1EC6C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033982E51A05C2D800B1EC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B5431025CD829A3C5DC4A7E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BanditTV/Pods-BanditTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B829F4081EFD19F2EA5D44A5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		033982CA1A05C2D800B1EC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033982DA1A05C2D800B1EC6C /* ViewController.m in Sources */,
+				033982D71A05C2D800B1EC6C /* AppDelegate.m in Sources */,
+				033982D41A05C2D800B1EC6C /* main.m in Sources */,
+				03ABF97C1A100F8400257A0C /* ALAssetsLibrary+CustomPhotoAlbum.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		033982E31A05C2D800B1EC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033982EE1A05C2D800B1EC6C /* BanditTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033982E91A05C2D800B1EC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033982CD1A05C2D800B1EC6C /* BanditTV */;
+			targetProxy = 033982E81A05C2D800B1EC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		033982DB1A05C2D800B1EC6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033982DC1A05C2D800B1EC6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		033982E01A05C2D800B1EC6C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033982E11A05C2D800B1EC6C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033982EF1A05C2D800B1EC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		033982F01A05C2D800B1EC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		033982F21A05C2D800B1EC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 934CF300B9D6EDBBD98221A9 /* Pods-BanditTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BanditTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		033982F31A05C2D800B1EC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C57B3472D9B8501401B7A7 /* Pods-BanditTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BanditTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		033982F51A05C2D800B1EC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BanditTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanditTV.app/BanditTV";
+			};
+			name = Debug;
+		};
+		033982F61A05C2D800B1EC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BanditTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BanditTV.app/BanditTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033982C91A05C2D800B1EC6C /* Build configuration list for PBXProject "BanditTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033982EF1A05C2D800B1EC6C /* Debug */,
+				033982F01A05C2D800B1EC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033982F11A05C2D800B1EC6C /* Build configuration list for PBXNativeTarget "BanditTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033982F21A05C2D800B1EC6C /* Debug */,
+				033982F31A05C2D800B1EC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033982F41A05C2D800B1EC6C /* Build configuration list for PBXNativeTarget "BanditTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033982F51A05C2D800B1EC6C /* Debug */,
+				033982F61A05C2D800B1EC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 033982C61A05C2D800B1EC6C /* Project object */;
+}

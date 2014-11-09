@@ -1,0 +1,14 @@
+PODS:
+  - GPUImage (0.1.6)
+
+DEPENDENCIES:
+  - GPUImage (from `git@github.com:BradLarson/GPUImage.git`)
+
+EXTERNAL SOURCES:
+  GPUImage:
+    :git: git@github.com:BradLarson/GPUImage.git
+
+SPEC CHECKSUMS:
+  GPUImage: 7750b6b093f36b7d843cbcdae97ab63cd91b8fe6
+
+COCOAPODS: 0.34.4
